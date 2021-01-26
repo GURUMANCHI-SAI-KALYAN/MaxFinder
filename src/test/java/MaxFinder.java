@@ -6,6 +6,6 @@ public class MaxFinder {
     public void givenThreeInteger_ShouldReturnMaxvalue() {
         MaxFinder maxFinder= new MaxFinder();
         int max = maxFinder.findMax(300, 400, 500);
-        Assert.assertEquals(400,max);
+        Assert.assertEquals(500,max);
     }
 }
