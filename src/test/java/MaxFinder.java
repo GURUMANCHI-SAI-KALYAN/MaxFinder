@@ -18,7 +18,7 @@ public class MaxFinder {
     @Test
     public void givenThreeStringValue_ShouldReturnMaxvalue() {
         MaxFinder maxFinder = new MaxFinder();
-        String max =  maxFinder.findStringMax("grapes", "orange", "mango");
+        String max =  maxFinder.findStringMax("grapes", "mango", "orange");
         Assert.assertEquals("orange", max);
     }
 }
