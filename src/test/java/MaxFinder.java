@@ -15,4 +15,10 @@ public class MaxFinder {
         Float max = maxFinder.findFloatMax(1.0f, 2.0f, 3.0f);
         Assert.assertEquals(3.0, max,0);
     }
+    @Test
+    public void givenThreeStringValue_ShouldReturnMaxvalue() {
+        MaxFinder maxFinder = new MaxFinder();
+        String max =  maxFinder.findStringMax("orange", "grapes", "mango");
+        Assert.assertEquals("orange", max);
+    }
 }
